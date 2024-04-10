@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.ovoki {
+    background-color: #1F2937;
+    padding: 30px;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2b3b;
+    align-items: center;
+    padding: 3px;   
+    border-radius: 34px;    
+    margin: 0 80px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 130px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+header img {
+    height: 40px;
+    object-fit: cover;
+    min-width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 0 10px 0 7px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 0);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    gap: 200px;
+    margin-bottom: 200px;
+}
+
+.about {
+    max-width: 500px;
+}
+
+.profile-picture {
+ width: 400px;
+ height: 300px;
+ object-fit: cover;
+ min-width: 300px;
+}
+
+.name {
+font-family: "Fjalla One";
+font-size: 48px;
+}
+
+
+.description {
+max-width: 400px;
+line-height:20px;
+}
+
+#about-me {
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+
+#about-me img {
+    width: 500px;
+    height: 300px;
+    min-width: 300px;
+}
+
+.about-me-content {
+    width: 50%;
+}
+
+.about-me-content h2 {
+    margin: 0;
+}
+
+.about-me-content p {
+    line-height: 21px;
+}
+
+#programming-skills {
+    margin-bottom: 100px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.skill-level {
+    height: 20px;
+    width: 800px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #4caf50;
+}
+
+.html {
+    width: 50%;
+}
+
+.css {
+    width: 30%;
+}
+
+.sub-heading {
+    font-size: 36px; 
+}
+
+#projects {
+    padding: 40px;
+}
+
+
+.my-projects {
+    display: flex;
+    justify-content: center;
+    font-family: "Fjalla One";
+}
+
+.project-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-image {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border:3px solid #3882F6;
+    border-radius: 16px;
+}
